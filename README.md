@@ -1,172 +1,80 @@
-Contribution: 2021-07-12 20:00
+# Solidity Template
 
-Contribution: 2021-07-12 20:01
+My favourite setup for writing Solidity smart contracts.
 
-Contribution: 2021-07-16 20:00
+- [Hardhat](https://github.com/nomiclabs/hardhat): compile and run the smart contracts on a local development network
+- [TypeChain](https://github.com/ethereum-ts/TypeChain): generate TypeScript types for smart contracts
+- [Ethers](https://github.com/ethers-io/ethers.js/): renowned Ethereum library and wallet implementation
+- [Waffle](https://github.com/EthWorks/Waffle): tooling for writing comprehensive smart contract tests
+- [Solhint](https://github.com/protofire/solhint): linter
+- [Solcover](https://github.com/sc-forks/solidity-coverage) code coverage
+- [Prettier Plugin Solidity](https://github.com/prettier-solidity/prettier-plugin-solidity): code formatter
 
-Contribution: 2021-07-16 20:01
+This is a GitHub template, which means you can reuse it as many times as you want. You can do that by clicking the "Use this
+template" button at the top of the page.
 
-Contribution: 2021-07-16 20:02
+## Usage
 
-Contribution: 2021-07-16 20:03
+### Pre Requisites
 
-Contribution: 2021-07-18 20:00
+Before running any command, make sure to install dependencies:
 
-Contribution: 2021-07-20 20:00
+```sh
+$ yarn install
+```
 
-Contribution: 2021-07-27 20:00
+### Compile
 
-Contribution: 2021-07-27 20:01
+Compile the smart contracts with Hardhat:
 
-Contribution: 2021-07-27 20:02
+```sh
+$ yarn compile
+```
 
-Contribution: 2021-07-27 20:03
+### TypeChain
 
-Contribution: 2021-07-31 20:00
+Compile the smart contracts and generate TypeChain artifacts:
 
-Contribution: 2021-07-31 20:01
+```sh
+$ yarn typechain
+```
 
-Contribution: 2021-08-01 20:00
+### Lint Solidity
 
-Contribution: 2021-08-01 20:01
+Lint the Solidity code:
 
-Contribution: 2021-08-12 20:00
+```sh
+$ yarn lint:sol
+```
 
-Contribution: 2021-08-12 20:01
+### Lint TypeScript
 
-Contribution: 2021-08-12 20:02
+Lint the TypeScript code:
 
-Contribution: 2021-08-15 20:00
+```sh
+$ yarn lint:ts
+```
 
-Contribution: 2021-08-15 20:01
+### Test
 
-Contribution: 2021-08-15 20:02
+Run the Mocha tests:
 
-Contribution: 2021-08-17 20:00
+```sh
+$ yarn test
+```
 
-Contribution: 2021-08-21 20:00
+### Coverage
 
-Contribution: 2021-08-24 20:00
+Generate the code coverage report:
 
-Contribution: 2021-08-25 20:00
+```sh
+$ yarn coverage
+```
 
-Contribution: 2021-08-25 20:01
+### Clean
 
-Contribution: 2021-08-25 20:02
+Delete the smart contract artifacts, the coverage reports and the Hardhat cache:
 
-Contribution: 2021-08-25 20:03
-
-Contribution: 2021-08-27 20:00
-
-Contribution: 2021-08-27 20:01
-
-Contribution: 2021-08-30 20:00
-
-Contribution: 2021-09-01 20:00
-
-Contribution: 2021-09-01 20:01
-
-Contribution: 2021-09-03 20:00
-
-Contribution: 2021-09-07 20:00
-
-Contribution: 2021-09-11 20:00
-
-Contribution: 2021-09-11 20:01
-
-Contribution: 2021-09-11 20:02
-
-Contribution: 2021-09-13 20:00
-
-Contribution: 2021-09-15 20:00
-
-Contribution: 2021-09-15 20:01
-
-Contribution: 2021-09-15 20:02
-
-Contribution: 2021-09-15 20:03
-
-Contribution: 2021-09-17 20:00
-
-Contribution: 2021-09-17 20:01
-
-Contribution: 2021-09-17 20:02
-
-Contribution: 2021-09-17 20:03
-
-Contribution: 2021-09-23 20:00
-
-Contribution: 2021-09-23 20:01
-
-Contribution: 2021-09-23 20:02
-
-Contribution: 2021-09-23 20:03
-
-Contribution: 2021-09-25 20:00
-
-Contribution: 2021-09-25 20:01
-
-Contribution: 2021-10-01 20:00
-
-Contribution: 2021-10-01 20:01
-
-Contribution: 2021-10-06 20:00
-
-Contribution: 2021-10-06 20:01
-
-Contribution: 2021-10-06 20:02
-
-Contribution: 2021-10-06 20:03
-
-Contribution: 2021-10-08 20:00
-
-Contribution: 2021-10-08 20:01
-
-Contribution: 2021-10-08 20:02
-
-Contribution: 2021-10-14 20:00
-
-Contribution: 2021-10-14 20:01
-
-Contribution: 2021-10-15 20:00
-
-Contribution: 2021-10-15 20:01
-
-Contribution: 2021-10-17 20:00
-
-Contribution: 2021-10-17 20:01
-
-Contribution: 2021-10-17 20:02
-
-Contribution: 2021-10-17 20:03
-
-Contribution: 2021-10-23 20:00
-
-Contribution: 2021-10-25 20:00
-
-Contribution: 2021-10-25 20:01
-
-Contribution: 2021-10-25 20:02
-
-Contribution: 2021-10-25 20:03
-
-Contribution: 2021-10-27 20:00
-
-Contribution: 2021-10-27 20:01
-
-Contribution: 2021-10-27 20:02
-
-Contribution: 2021-10-29 20:00
-
-Contribution: 2021-10-29 20:01
-
-Contribution: 2021-10-30 20:00
-
-Contribution: 2021-10-30 20:01
-
-Contribution: 2021-10-31 20:00
-
-Contribution: 2021-10-31 20:01
-
-Contribution: 2021-11-02 20:00
-
+```sh
+$ yarn clean
+```
